@@ -1,0 +1,15 @@
+1.Start
+2. N = Size of Stack,a
+3.Check if stack if full i.e TOP=N
+    if TOP = N
+        then print ("Stack Overflow")
+
+4. if stack is not full
+    increase TOP value by 1
+        TOP+=1
+        a[TOP]=element
+
+5.Stop
+
+
+    
