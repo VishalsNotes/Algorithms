@@ -1,0 +1,10 @@
+1.Start
+2.N=Size of stack,a=
+3.Check if Stack is empty i.e top=-1
+    if TOP = -1
+         then print("Stack Underflow")
+4. if stack is not empty
+    item=a[TOP]
+    TOP=TOP-1
+
+5.Stop
