@@ -1,0 +1,14 @@
+1.Start
+2.Declare the array,size,element to be placed and position
+    i.e. LOC,element,i,A
+
+3.Keep shifting the elements of the array to its next position by using loops
+    while(i>=LOC)
+    {
+        Set A[i+1]=A[i];
+        Set i=i-1;
+    }
+    [end the while loop]
+4.Set A[LOC]=element;
+5.N=N+1 (N is the total number of elements in the list)
+6.Stop 
