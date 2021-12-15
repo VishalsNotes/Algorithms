@@ -1,0 +1,20 @@
+1.Start
+2.Set first=0 and last=n-1 (n=length of array)
+3.Start a while loop with condition: first<=last
+    while(first<=last)
+4.      Find Mid it will be the integer value of the answer.
+        mid=first+last/2
+
+        if (a[mid]==E)
+            return mid+1;
+
+        else if (E<a[mid])
+            last=mid-1
+        
+        else
+            first=mid+1
+    End While loop
+
+5.If element not present in the list return -1
+6.Stop
+

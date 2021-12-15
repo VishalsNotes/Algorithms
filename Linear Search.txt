@@ -1,0 +1,9 @@
+1.Start
+2.Set N=Length of array,x=Search element and a[]=Array,i=index
+3.Now create a for loop with initial value 0.
+    for(i=0;i<n;i++)
+4.      Check if a[i]==x
+5.            then return i
+6.      else:
+            return -1
+7.Stop
