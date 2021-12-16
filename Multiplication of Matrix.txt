@@ -1,0 +1,14 @@
+1.Start
+2.Delcare three 2D array A,B and C then Declare I,J,K,M,N,X,Y
+3. Check if(M!=X || N!=Y)
+    then print("Operation Not Possible")
+4.Else
+5.Repeat For I=1 to N
+6.    Repeat For J=1 to X
+7.        Set C[i][j]=0
+8.        Repeat For K=1 to Y
+9.            Set C[i][j]=C[i][j]+A[i][j]+B[i][j]
+        [End K For Loop]
+    [End J For Loop]
+  [End I For Loop]
+10.Stop
