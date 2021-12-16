@@ -7,7 +7,7 @@
 6.    Repeat For J=1 to X
 7.        Set C[i][j]=0
 8.        Repeat For K=1 to Y
-9.            Set C[i][j]=C[i][j]+A[i][j]*B[i][j]
+9.            Set C[i][j]=C[i][j]+A[i][k]*B[k][j]
         [End K For Loop]
     [End J For Loop]
   [End I For Loop]
