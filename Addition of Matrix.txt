@@ -1,0 +1,12 @@
+1.Start
+2.Declare two 2D arrays A & B and M,N,X,Y for rows and columns of the two arrays
+3.Check if(M!=X || N!=Y)
+    then print("Opeartion Not Possible")
+4.Exit
+[End IF]
+5.Repeat For I=1 to M
+6.    Repeat For J=1 to N
+7.          print(A[i][j]+B[i][j])
+      [End For J Loop]
+  [End For I Loop]
+8.Exit
